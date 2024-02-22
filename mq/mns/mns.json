@@ -1,0 +1,7 @@
+{
+    "host":"",
+    "access_id":"xxx",
+    "access_secret":"sss",
+    "queue_name":"A-UPDATE-TEST",
+    "qps":20
+}

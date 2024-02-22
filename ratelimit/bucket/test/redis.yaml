@@ -1,0 +1,13 @@
+sredis:
+  name: ratelimit
+  proto: tcp
+  addr: localhost:6379
+  dialTimeout: 10s
+  readTimeout: 10s
+  writeTimeout: 10s
+  pool:
+    active: 2000
+    idle: 1000
+    idleTimeout: 29s
+    waitTimeout: 0
+    wait: true
